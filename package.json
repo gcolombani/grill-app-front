@@ -1,0 +1,29 @@
+{
+  "name": "grill-booking-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "1.4.2",
+    "@material-ui/icons": "2.0.0",
+    "axios": "^0.18.0",
+    "mobx": "4.3.1",
+    "mobx-react": "5.2.3",
+    "react": "16.4.1",
+    "react-app-rewire-mobx": "1.0.8",
+    "react-dom": "16.4.1",
+    "react-navigation": "^2.9.3",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "3.1.1",
+    "eslint": "4.10.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "react-app-rewired": "1.5.2"
+  }
+}

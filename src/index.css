@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  height: 85px !important;
+}
+header div, header button {
+  height: 100% !important;
+}
+.white * { color: white; }
