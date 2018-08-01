@@ -1,6 +1,7 @@
 import { observable, action } from 'mobx'
 import { User } from 'models'
 import axios from 'axios';
+import { NavigationStorage } from 'config/NavigationStorage';
 const GLOBAL = require('config/GLOBAL');
 
 
@@ -95,6 +96,7 @@ class UserViewModel{
             null
           );
         }
+        NavigationStorage.go(GLOBAL.pages.list);
       };
       axios.delete(`${GLOBAL.base_url}auth/sign_out`
       ).then(onComplete).catch(onComplete);
