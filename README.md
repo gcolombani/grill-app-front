@@ -1,4 +1,4 @@
-Una aplicación de frontend en React + MobX + Material-ui
+Una aplicación de frontend en React + MobX + MVVM + Material-ui
 
 Con Nodejs v6.11.3
 y NPM 3.10.10
